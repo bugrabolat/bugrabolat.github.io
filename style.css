@@ -1,0 +1,67 @@
+body {
+    background-color: gainsboro;
+}
+
+.nav-link {
+    color: #ffff;
+}
+
+.navbar-email {
+    color: #ffff;
+    text-decoration: none;
+}
+
+.about {
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#info {
+    border: 0;
+    background-color: gainsboro;
+}
+
+.card-img-top {
+    width: 170px;
+    height: 227px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5%;
+}
+
+.card-body {
+    text-align: center;
+}
+.work {
+    display: flex;
+}
+#workcard {
+    text-align: center;
+    justify-content: space-between;
+
+}
+.card {
+    margin-right: auto;
+    margin-left: auto;
+}
+.skills {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    background-color: #ffff;
+    display: flex;
+}
+
+.step {
+    text-align: center;
+    justify-content: space-between;
+    margin-right: auto;
+    margin-left: auto;
+}
+.step p {
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+
