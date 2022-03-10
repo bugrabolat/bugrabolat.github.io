@@ -2,11 +2,27 @@ body {
     background-color: gainsboro;
 }
 
+p {
+    font-family: "leaguespartan";
+    font-weight: 300;
+}
+
+h1,
+h5 {
+    font-family: "leaguespartan";
+    font-weight: 700;
+}
+a:hover{
+   color: rgb(165, 165, 165);
+}
+.nav-item a:hover{
+    color: rgb(165, 165, 165);
+ }
 .nav-link {
     color: #ffff;
 }
 
-.navbar-email {
+.logo {
     color: #ffff;
     text-decoration: none;
 }
@@ -22,7 +38,7 @@ body {
     background-color: gainsboro;
 }
 
-.card-img-top {
+#myphoto {
     width: 170px;
     height: 227px;
     margin-left: auto;
@@ -30,25 +46,60 @@ body {
     border-radius: 5%;
 }
 
+.card-img-top {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5%;
+}
+.card-img {
+    height: 170px;
+    width: 270px;
+}
+
 .card-body {
     text-align: center;
 }
+
 .work {
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: stretch;
+    justify-content: center;
 }
+.work-img {
+  text-align: center;
+  padding: 10px;
+}
+
 #workcard {
     text-align: center;
     justify-content: space-between;
 
 }
+
 .card {
     margin-right: auto;
     margin-left: auto;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 30px;
 }
+
+.card img {
+    height: 170px;
+}
+
 .skills {
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
+    background-color: #ffff;
+}
+
+.skills-container {
+    margin-left: auto;
+    margin-right: auto;
     background-color: #ffff;
     display: flex;
 }
@@ -58,10 +109,46 @@ body {
     justify-content: space-between;
     margin-right: auto;
     margin-left: auto;
+    margin-top: 10px;
 }
+
 .step p {
     padding-top: 10px;
     margin-top: 10px;
 }
 
+.stepheader {
+    display: flex;
+}
 
+.stepheader h1 {
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+}
+.footer p {
+    color: #ffff;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.icons{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+.icons a{
+    padding-right: 10px;
+}
+.icons a img:hover{
+    background-color: #ffff;
+    opacity: 0.1;
+}
+.icons a  img{
+    width: 32px;
+    height: 32px;
+}

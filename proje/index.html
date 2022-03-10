@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BUĞRA PROJE</title>
+    <script
+      src="https://kit.fontawesome.com/9c23f69017.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;700&family=Oswald:wght@200;300;500;700&family=Poppins:wght@100;400;600;700;800&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <div id="leftcol">
+        <div style="height: 100%; overflow-x: hidden; overflow-y: scroll;">
+        <div class="logo"><img src="./img/ULTRANET.png" alt=""></div>
+        <div class="side-wrapper">
+          <div class="side-title">MENU</div>
+          <div class="side-menu">
+            <ul>
+              <li><i class="fas fa-home"></i>Home</li>
+              <li><i class="fas fa-book-open"></i>Latest News</li>
+              <li><i class="fas fa-map-marker-alt"></i>Explore</li>
+              <li><i class="fas fa-file-alt"></i>Files</li>
+              <li><i class="fas fa-file-image"></i>Galery</li>
+              <li><i class="fas fa-calendar-check"></i>Calender</li>
+            </ul>
+          </div>
+          <div class="side-title">YOUR FAVOURITE</div>
+          <div class="side-menu">
+            <ul>
+              <li><i class="fas fa-tree"></i>Foresto</li>
+              <li><i class="fab fa-earlybirds"></i>Birds</li>
+              <li><i class="fab fa-canadian-maple-leaf"></i>Nature</li>
+              <li><i class="fas fa-paw"></i>Animals</li>
+              <li><i class="fas fa-motorcycle"></i>Motobike</li>
+              <li><i class="fas fa-child"></i>Dance</li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+        <h3><i class="fab fa-twitter"></i>Follow Me On Twitter</h3>
+      </div>
+    </div>
+
+      <div id="menu">
+        <div class="search-bar">
+          <input type="text" placeholder="Search" />
+          <button class="right-side-button" @click="rightSide = !rightSide">
+            <i class="fas fa-search"></i>
+          </button>
+        </div>
+        <div class="profile-container">
+          <div class="profile">
+            <img src="/proje/img/lavanta_gezikazani.jpeg" alt="naturel" />
+            <div class="profile-name">BUĞRA BOLAT</div>
+          </div>
+          <div class="my-photo">
+            <img
+              src="./img/WhatsApp Image 2021-11-12 at 23.20.42.jpeg"
+              alt="hiranur-image"
+            />
+          </div>
+
+          <div class="profile-menu">
+            <ul>
+              <li class="profile-menu-link-active"><a>Timeline</a></li>
+              <li class="profile-menu-link"><a>About</a></li>
+              <li class="profile-menu-link"><a>Friends</a></li>
+              <li class="profile-menu-link"><a>Photos</a></li>
+              <li class="profile-menu-link"><a>More</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-left">
+            <div class="intro-box">
+              <div class="intro-title">
+                Introduction
+                <button class="intro-menu"></button>
+              </div>
+              <div class="info">
+                <div class="info-item">
+                  <i class="fas fa-shopping-bag"></i>
+                  Product Designer at <a href="#">BT Academy</a>
+                </div>
+                <div class="info-item">
+                  <i class="fas fa-home"></i>
+                  Live in <a href="#">İstanbul</a>
+                </div>
+                <div class="info-item">
+                  <i class="fas fa-basketball-ball"></i>
+                  Player name <a href="#">Buğra Bolat</a>
+                </div>
+              </div>
+            </div>
+            <div class="event-box">
+              <div class="event-wrapper">
+                <img src="./img/lavanta-yağı.jpeg" class="flowers-img" />
+                <div class="event-date">
+                  <div class="event-month">Jeb</div>
+                  <div class="event-day">02</div>
+                </div>
+                <div class="event-title">Winter Flowers</div>
+                <div class="event-subtitle">01st Jeb, 2022 10:00AM</div>
+              </div>
+            </div>
+            <div class="pages box">
+              <div class="intro-title">
+                Your pages
+                <button class="intro-menu"></button>
+              </div>
+              <div class="user">
+                <img src="./img/face-1.jpeg" alt="" class="user-img" />
+                <div class="username">Michael Jackson</div>
+              </div>
+              <div class="user">
+                <img src="./img/face-2.jpeg" alt="" class="user-img" />
+                <div class="username">Johnny Depp</div>
+              </div>
+              <div class="user">
+                <img src="./img/face-3.jpeg" alt="" class="user-img" />
+                <div class="username">Rihanna</div>
+              </div>
+            </div>
+          </div>
+          <div class="timeline-right">
+            <div class="status-box">
+              <div class="status-menu">
+                <a class="status-menu-item active" href="#">Status</a>
+                <a class="status-menu-item" href="#">Photos</a>
+                <a class="status-menu-item" href="#">Videos</a>
+              </div>
+              <div class="status-main">
+                <img
+                  src="./img/WhatsApp Image 2021-11-12 at 23.20.42.jpeg"
+                  class="status-img"
+                />
+                <textarea
+                  class="status-textarea"
+                  placeholder="Write something to Buğra.."
+                ></textarea>
+              </div>
+              <div class="status-actions">
+                <a href="#" class="status-action"
+                  ><i class="fas fa-user"></i>People</a
+                >
+                <a href="#" class="status-action"
+                  ><i class="fas fa-map-pin"></i>Check in</a
+                >
+                <a href="#" class="status-action"
+                  ><i class="fas fa-laugh"></i>Mood</a
+                >
+                <button class="status-share">Share</button>
+              </div>
+            </div>
+            <div class="album box">
+              <div class="status-main">
+                <img
+                  src="./img/WhatsApp Image 2021-11-12 at 23.20.42.jpeg"
+                  class="status-img"
+                />
+                <div class="album-detail">
+                  <div class="album-title">
+                    <strong>Buğra Bolat</strong>
+                    create new <span>album</span>
+                  </div>
+                  <div class="album-date">6 hours ago</div>
+                </div>
+                <button class="intro-menu"></button>
+              </div>
+              <div class="album-content">
+                when the bass drops,so do my problems.
+                <div class="album-photos">
+                  <img src="./img/lavanta1.jpeg" alt class="album-photo" />
+                  <div class="album-right">
+                    <img src="./img/lavanta2.jpeg" alt class="album-photo" />
+                    <img src="./img/lavanta3.jpeg" alt class="album-photo" />
+                  </div>
+                </div>
+              </div>
+              <div class="album-actions">
+                <a href="#" class="album-action">
+                  <i class="far fa-heart"></i>87
+                </a>
+                <a href="#" class="album-action">
+                  <i class="far fa-comment"></i>20
+                </a>
+                <a href="#" class="album-action">
+                  <i class="fas fa-retweet"></i>45
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="right-side" :class="{'active': rightSide } ">
+        <div class="account">
+          <button class="account-button">
+            <i class="fas fa-envelope"></i>
+          </button>
+          <button class="account-button2">
+            <i class="far fa-bell"></i>
+          </button>
+          <span class="account-user">
+            Buğra Bolat
+            
+            <img src="./img/WhatsApp Image 2021-11-12 at 23.20.42.jpeg" alt class="account-profile">
+            <span>▼</span>
+          </span>
+        </div>
+        <div class="side-wrapper stories">
+          <div class="side-title">STORIES</div>
+          <div class="user">
+            <img src="./img/Woman-profile1.jpg" alt class="user-img">
+            <div class="username">ayşe güler
+              <div class="album-date">8 hours ago</div>
+            </div>
+          </div>
+          <div class="user">
+            <img src="./img/man-profile1.jpeg" alt class="user-img">
+            <div class="username">fatih demir
+              <div class="album-date">2 hours ago</div>
+            </div>
+          </div>
+          <div class="user">
+            <img src="./img/man-profile2.webp" alt class="user-img">
+            <div class="username">Özkan kaya
+              <div class="album-date">6 hours ago</div>
+            </div>
+          </div>
+          <div class="user">
+            <img src="./img/woman-profile2.jpeg" alt class="user-img">
+            <div class="username">nur yımaz
+              <div class="album-date">30 minutes ago</div>
+            </div>
+          </div>
+        </div>
+        <div class="side-wrappers contacts">
+          <div class="side-title2">CONTACTS</div>
+          <div class="user">
+            <img src="./img/Woman-profile1.jpg" class="user-img">
+            <div class="username">
+              ayşe güler 
+             <div class="user-status idle"></div>
+            </div>
+          </div>
+          <div class="user">
+            <img src="./img/man-profile1.jpeg" class="user-img">
+            <div class="username">
+              fatih demir
+             <div class="user-status"></div>
+            </div>
+          </div>
+          <div class="user">
+            <img src="./img/man-profile2.webp" class="user-img">
+            <div class="username">
+              Özkan kaya
+             <div class="user-status idle"></div>
+            </div>
+          </div>
+          <div class="user">
+            <img src="./img/woman-profile2.jpeg" class="user-img">
+            <div class="username">
+              nur yımaz 
+             <div class="user-status"></div>
+            </div>
+          </div>
+          <div class="user">
+            <img src="./img/hiranur.jpeg" class="user-img">
+            <div class="username">
+             Hiranur Özkan 
+             <div class="user-status idle"></div>
+            </div>
+          </div>
+        </div>
+        <div class="search-bar right-search">
+          <input type="text" placeholder="Search" />
+          <div class="search-bar-svgs">
+            <i class="fas fa-search"></i>
+            <i class="fas fa-cog"></i>
+            <i class="fas fa-pencil-alt"></i>
+          </div>
+         </div> 
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
